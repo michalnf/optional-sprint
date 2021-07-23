@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+<body onload="initGame(4, 2)">
+    <div class="main">
+        <p id="timer"></p>
+        <p id="lives"></p>
+        <div class='smile'></div>
+        <div class="btns">
+            <button onclick="initGame(4, 2)">easy</button>
+            <button onclick="initGame(8, 12)">medium</button>
+            <button onclick="initGame(12, 30)">hard</button>
+            <p class="bestscore"></p>
+
+        </div>
+        <table class="create-arr">
+        </table>
+    </div>
+
+
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
