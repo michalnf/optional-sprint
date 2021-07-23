@@ -30,7 +30,7 @@ var gLevel = { SIZE: 4, MINES: 2 };
 function initGame(size, mines) {
   elSmile.innerHTML = NORMAL;
   elbestscore.innerHTML=lsbestscore;
-
+  gGame.markedCount = 0;
   gGame.isFirstClick = 0;
   gGame.isOn = false;
   gBoard = [];
